@@ -32,9 +32,13 @@ We will talk about several things today with some examples of code questions of 
 
 You'd usually write something like:
 ```cpp
-// your code here
-
+int x;
+cin >> x;
+cout << x;
 ```
+
+Please do note that you need to use '>>' when using cin
+and you need to use '<<' to use cout , dont get them mixed up!
 
 ## B. Variables and Data Type
 Within the coding environment, sometimes you need to declare a variable, like a math question.
