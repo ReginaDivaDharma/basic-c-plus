@@ -92,8 +92,7 @@ Time Limit : 1 Second
 
 Answer : 
 ```cpp
-char codename = 'W';
-string fruit = "watermelon";
+
 ```
 
 Explanation : 
@@ -108,8 +107,7 @@ Time Limit : 1 Second
 
 Answer : 
 ```cpp
-char codename = 'W';
-string fruit = "watermelon";
+
 ```
 
 Explanation :   
@@ -122,8 +120,7 @@ Constraint : 1 <= N, M <= 10^5, 1 <= A[i] <= 10^9, 1 <= K <= 10^14
 
 Answer : 
 ```cpp
-char codename = 'W';
-string fruit = "watermelon";
+
 ```
 Explanation :   
 
