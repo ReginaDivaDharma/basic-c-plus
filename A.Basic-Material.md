@@ -68,5 +68,67 @@ string fruit = "watermelon";
 I usually add one more variable which is a bool,
 basically it is just a flag to make you know whether the data is true or false.
 
-## C.Operator
+## C. Operator
 Operators are just basically math equation that you usually see everywhere.
+
+## D. If / Else
+
+## E. Repetition
+
+## F. Scope
+
+## G. Function / Recursion
+
+## H. Library C++
+
+## I. Example Code Questions
+1. Example Problem 1
+Problem : 
+Given integer N
+Determine if N is a prime number or not
+
+Constraint : 1 <= N <= 10^9
+Time Limit : 1 Second
+
+Answer : 
+```cpp
+char codename = 'W';
+string fruit = "watermelon";
+```
+
+Explanation : 
+
+2. Example Problem 2
+Problem : 
+You are given two positive integers , N and M 
+Please calculate N^M mod 10^9
+
+Constraint : 1 <= N, M <= 10^9
+Time Limit : 1 Second
+
+Answer : 
+```cpp
+char codename = 'W';
+string fruit = "watermelon";
+```
+
+Explanation :   
+3. Example Problem 3
+Problem : 
+You are given an array A of N positive integers 
+Find the largest contigous subarray with its sum <= K
+
+Constraint : 1 <= N, M <= 10^5, 1 <= A[i] <= 10^9, 1 <= K <= 10^14
+
+Answer : 
+```cpp
+char codename = 'W';
+string fruit = "watermelon";
+```
+Explanation :   
+
+## Complexity Time
+
+## Tips and Tricks
+
+
