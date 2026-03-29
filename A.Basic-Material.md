@@ -1,4 +1,4 @@
-# 🚀 Competitive Programming Notes (C++)
+# 🐇 Competitive Programming Notes (C++)
 
 Hello, this is basically my notes for the basics to get ready for **competitive programming**,  
 or if you need to do a **coding interview** for your new job!
