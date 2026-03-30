@@ -4,6 +4,7 @@ Hello, this is basically my notes for the basics to get ready for **competitive 
 or if you need to do a **coding interview** for your new job!
 
 For this document I will be using **C++** because I have been using C for quite a while.
+Please do remember that in coding you need to focus on translating algorithms instead of memorizing.
 
 We will talk about several things today with some examples of code questions of *"competitive coding"*.
 
@@ -64,20 +65,30 @@ If someone would like to say that they have watermelon and they use the word W f
 char codename = 'W';
 string fruit = "watermelon";
 ```
+Usually you use String if you need to have some words. but please do note that string is actually a class. 
 
 I usually add one more variable which is a bool,
 basically it is just a flag to make you know whether the data is true or false.
+
+An array is also a very , common practice with a coding practice , something similar like a matrix if you are familiar with it. 
+And actually arrays have many different forms, there's a 2D array , 3D arrays , etc. But one thing that you need to know about arrays and their many nested things, it's quite simple, it's just an array inside of another array.
+```cpp
+int x [2][3] = {
+  {0,1,2},
+  {3,4,5)
+}
+```
 
 ## C. Operator
 Operators are just basically math equation that you usually see everywhere, like when you want tpo add something, division, minus, modulos, etc.
 ```cpp
 int x = 6;
-cout << 6%3;
+cout << 6 % 3;
 ```
 
 ## D. If / Else
 If - Else is a very common practice in the competitive coding, you usually use it if you have a condition that your program must fulfill.
-Now for example how should we know if a number is even? this is a very common question in coding, and we can solve this with an if - else statement
+Now for example how should we know if a number is even? this is a very common question in coding, and we can solve this with an if - else statement.
 ```cpp
 int x = 6;
 if (x % 2 == 0 ) {
@@ -93,20 +104,50 @@ Explanation : Now in the code above the program will try to do some math operati
 Repetition is also one of the most common questions that we have in a coding competition. Usually we use two things for repetition , maybe if you already hear nested loops and while statemnets, then you should be able to do it easily. Repetitions are basically when you want to do something until your statement is fulfilled.
 
 1. For loops
-For ( 
+There are many uses for loops , it's basically saying , please do x while the value of x is still under the condition you have set. 
 
-3. While Statements
+```cpp
+for (int i = 0 ; i <=5 ; i++) {
+  cout << i;
+  i += 1;
+}
+``` 
 
+2. While Statements
+```cpp
+int x = 10;
+while ( x > 1 ) {
+  cout << x ;
+  x -= 1;
+}
+``` 
 
-4. Recursion 
+3. Recursion
+Recursion is basically a function that calls upon itself again, and this is by far the most used thing in competitive programming. 
+```cpp
 
+``` 
 
 ## F. Scope
 
+
 ## G. Function 
-Function is something similar like a math formula 
+Function is something similar like a math formula maybe if you are familiar with this f(x) = x + 5, this is basically a function ! the int main itself is also a function, you usually use it if you want to make your code easier to understand. So how do we use a function or make a new one? well see the codes down below!
+```cpp
+int f(x) {
+  return x + 5;
+}
+
+int main () {
+  int x;
+  cin >> x;
+  f(x);
+}
+
+``` 
 
 ## H. Library C++
+C++ offers many new libraries that you can use in competitive programming, instead of making a sort by yourself , we already have a library for it now. We will dive in to this library more in data structure.
 
 ## I. Example Code Questions
 1. Example Problem 1
@@ -154,5 +195,6 @@ Explanation :
 ## Complexity Time
 
 ## Tips and Tricks
+In competitive coding you need to focus more on algorithms instead of the language or formulas. You need to know how to translate the logic in your computer's codes, and if you already know how to do that, then you should be okay !
 
 
