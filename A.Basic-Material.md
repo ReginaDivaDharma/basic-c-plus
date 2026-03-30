@@ -69,15 +69,42 @@ I usually add one more variable which is a bool,
 basically it is just a flag to make you know whether the data is true or false.
 
 ## C. Operator
-Operators are just basically math equation that you usually see everywhere.
+Operators are just basically math equation that you usually see everywhere, like when you want tpo add something, division, minus, modulos, etc.
+```cpp
+int x = 6;
+cout << 6%3;
+```
 
 ## D. If / Else
+If - Else is a very common practice in the competitive coding, you usually use it if you have a condition that your program must fulfill.
+Now for example how should we know if a number is even? this is a very common question in coding, and we can solve this with an if - else statement
+```cpp
+int x = 6;
+if (x % 2 == 0 ) {
+  cout << "This is an even number";
+}
+else {
+  cout << "This is an odd number";
+}
+```
+Explanation : Now in the code above the program will try to do some math operation 'modulo' to know whether we can divide 6 with the number 2 or not. If it returns zero (which means that yes 6 can be divided by 2) , if it doesnt return zero (else) that means the number is no divisible by two, thus making it an odd number.
 
 ## E. Repetition
+Repetition is also one of the most common questions that we have in a coding competition. Usually we use two things for repetition , maybe if you already hear nested loops and while statemnets, then you should be able to do it easily. Repetitions are basically when you want to do something until your statement is fulfilled.
+
+1. For loops
+For ( 
+
+3. While Statements
+
+
+4. Recursion 
+
 
 ## F. Scope
 
-## G. Function / Recursion
+## G. Function 
+Function is something similar like a math formula 
 
 ## H. Library C++
 
