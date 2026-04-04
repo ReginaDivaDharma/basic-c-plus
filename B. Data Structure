@@ -1,0 +1,24 @@
+Data Structure
+Data structure is the answer to the questions on how we can maintain data and query them efficiently. 
+- We might need some queries 
+- Our algorithms might need some querying 
+
+Each data structure is designed to handle some type of data
+
+Mastery in data structure 
+1. Wide knowledge of data structure and its purpose 
+2. Know how to modify data structures to answer queries
+3. able to formulate what kind of queries our our algorthm needs
+
+Well known data structure 
+1. Array / Vector 
+Designed for accessing elements by index
+2. Linked List / Stack / Queue
+Designed to be a dynamic list
+can only access the head/top/tail/top/front
+3. Priority Queue / Heap
+Designed to find the maximum / minimum
+Can only access maximum / minimum data
+4. BBST / Hash Table 
+Designed for CRUD (Create, Read, Update ,Delete)
+
