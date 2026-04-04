@@ -160,6 +160,45 @@ Time Limit : 1 Second
 
 Answer : 
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+/*
+The algorithm below is to solve how to know whether a number is a primary number ir not. 
+But before we write the code let's understand what is a primary number itself first? 
+
+Primary number is a number that can only be divided by one and itself. The numbers are usually odds and are a positive greater than one. Only number two is considered an even primary number.
+
+Now let's think like a robot, how do we check wether a number is primary or not ? 
+1. The algorith must check whether the number is a positive greater than one
+2. The algorithm must check to see whether there are truly no other numbers that can divide that number other than itself
+3. Number two must be considered as a primary number
+*/
+
+bool isPrime (int x) {
+    if (x == 1) {
+        return false;
+    }
+    for(int i = 2 ; i < x ; i++) {
+        if(x % i == 0 ) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int main() {
+    int x;
+    cin >> x;
+    if(isPrime(x) == true) {
+        cout << "Prime Number" << endl;        
+    }
+    else {
+        cout << "Not a prime number" << endl;
+    }
+    return 0; 
+
+}
 
 ```
 
