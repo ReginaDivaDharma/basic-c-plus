@@ -214,6 +214,25 @@ Time Limit : 1 Second
 
 Answer : 
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+/* 
+Problem 2 : You are given two positive integers , N and M Please calculate N^M mod 10^9
+
+Constraint : 1 <= N, M <= 10^9 Time Limit : 1 Second
+*/
+
+int math(int n, int m) {
+    return n^m % 10&9;
+}
+
+int main() {
+	int n, m;
+	cin >> n >> m;
+	
+    cout << math (n,m) << endl;
+}
 
 ```
 
