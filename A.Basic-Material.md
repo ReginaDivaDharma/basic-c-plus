@@ -176,10 +176,11 @@ Now let's think like a robot, how do we check wether a number is primary or not 
 */
 
 bool isPrime (int x) {
-    if (x == 1) {
+    if (x < 2) {
         return false;
     }
-    for(int i = 2 ; i < x ; i++) {
+    int squareRoot = sqrt(x);
+    for(int i = 2 ; i < squareRoot ; i++) {
         if(x % i == 0 ) {
             return false;
         }
