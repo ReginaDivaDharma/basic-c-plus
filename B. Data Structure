@@ -19,6 +19,7 @@ can only access the head/top/tail/top/front
 3. Priority Queue / Heap
 Designed to find the maximum / minimum
 Can only access maximum / minimum data
-4. BBST / Hash Table 
+4. Balanced Binary Tree / Hash Table 
 Designed for CRUD (Create, Read, Update ,Delete)
 
+Advanced Data Structure
