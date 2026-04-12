@@ -22,4 +22,34 @@ Can only access maximum / minimum data
 4. Balanced Binary Tree / Hash Table 
 Designed for CRUD (Create, Read, Update ,Delete)
 
-Advanced Data Structure
+Let's go into practice!
+Below is an example of leet code's binary search using hash map that i did, 
+```
+class Solution {
+public:
+/* Use hash table for comparison*/
+    int missingNumber(vector<int>& nums) {
+        // Declare missing number int
+        int missingNum = 0;
+
+        // Declare the hash map that will store the real values
+        unordered_set<int> s;
+        int arraySize = nums.size();
+
+        // Insert the real values into the hash map via looping and .insert()
+        for(int i=0;i<arraySize;i++) {
+           s.insert(nums[i]);
+        }
+
+        // Loop to find which one is not included in the hash map = which is user's input
+        for(int i=0;i<=arraySize;i++) { 
+            if(s.find(i) != s.end()) {
+               continue;
+            } else {
+                missingNum = i;
+            }
+        }
+        return missingNum;
+    }
+};
+```
